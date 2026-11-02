@@ -1,0 +1,77 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="oc7uJiixIp7GI40SYzAa">
+    <mxGraphModel dx="1030" dy="658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="L4-NrSxI4FkTahg8ekO1-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="log.py MVP&lt;div&gt;Enter reps and submit&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="170" x="130" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="L4-NrSxI4FkTahg8ekO1-2" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;" target="L4-NrSxI4FkTahg8ekO1-3" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="214.5" y="160" as="sourcePoint" />
+            <mxPoint x="214.5" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="L4-NrSxI4FkTahg8ekO1-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Save the Entry&lt;div&gt;appent to CSV&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="170" x="130" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="L4-NrSxI4FkTahg8ekO1-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Push to Github&lt;div&gt;commit and push&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="170" x="130" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="L4-NrSxI4FkTahg8ekO1-5" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="214.5" y="300" as="sourcePoint" />
+            <mxPoint x="215" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xgFwmLmaFZkMImRKnb85-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;pushups.csv&lt;/div&gt;&lt;div&gt;github repo&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="170" x="420" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="xgFwmLmaFZkMImRKnb85-7" edge="1" parent="1" style="curved=1;curveGeometry=1;endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;" target="xgFwmLmaFZkMImRKnb85-6" value="">
+          <mxGeometry height="50" relative="1" width="50" x="-0.0815" as="geometry">
+            <Array as="points">
+              <mxPoint x="385" y="400" />
+              <mxPoint x="335" y="350" />
+              <mxPoint x="420" y="360" />
+            </Array>
+            <mxPoint x="310" y="410" as="sourcePoint" />
+            <mxPoint x="385" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xgFwmLmaFZkMImRKnb85-8" edge="1" parent="1" style="curved=1;curveGeometry=1;endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="xgFwmLmaFZkMImRKnb85-10" value="">
+          <mxGeometry height="50" relative="1" width="50" x="-0.5652" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="400" />
+              <mxPoint x="600" y="350" />
+              <mxPoint x="640" y="210" />
+            </Array>
+            <mxPoint x="600" y="400" as="sourcePoint" />
+            <mxPoint x="660" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xgFwmLmaFZkMImRKnb85-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Run the dashboard&lt;/div&gt;&lt;div&gt;streamlit run&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="170" x="680" as="geometry" />
+        </mxCell>
+        <mxCell id="xgFwmLmaFZkMImRKnb85-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Read the data&lt;div&gt;Pandas&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="170" x="680" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="xgFwmLmaFZkMImRKnb85-11" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.355;exitY=0.994;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.36;entryY=-0.01;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="764.4999999999999" y="99.99999999999997" as="sourcePoint" />
+            <mxPoint x="765.35" y="169.6" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xgFwmLmaFZkMImRKnb85-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;Show the chart&lt;/div&gt;&lt;div&gt;plotly&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="170" x="680" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="xgFwmLmaFZkMImRKnb85-13" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.355;exitY=0.994;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.36;entryY=-0.01;entryDx=0;entryDy=0;entryPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="764.5" y="270.4" as="sourcePoint" />
+            <mxPoint x="765.3500000000001" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
