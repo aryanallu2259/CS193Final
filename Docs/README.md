@@ -5,6 +5,7 @@ To create a python program that takes in CLI input as a pusher counter and then 
 
 MVP Scope: Ability to run the program and have it push to github the count and then get the relevant charts.
 
-Future Plans: Email updates with new metrics on pushup count daily. Maybe even have it so you can email in your pushups. Also creating sharing ways on social media.
+Future Plans: Email updates with new metrics on pushup count daily and auto generating reports. Maybe even have it so you can email in your pushups. Also creating sharing ways on social media.
+UPDATE: The auto generating reports are done and have charts and heatmaps to give actionable information.
 
 Tech Stack: git, cron, python, streamlit, pandas, plotly
